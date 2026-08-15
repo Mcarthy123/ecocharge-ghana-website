@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoCharge Ghana — Solar EV Charging Across Ghana</title>
+<meta name="description" content="EcoCharge Ghana operates solar-powered EV charging stations across Ghana, pairing every charge with clean water access and a smart charging app.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand"><span class="dot"></span><span class="eco">Eco</span><span class="charge">Charge</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('nav.links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="links">
+      <a href="index.html" class="active">About</a>
+      <a href="faq.html">FAQ</a>
+      <a href="terms.html">Terms of Service</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="sunburst" aria-hidden="true" id="sunburst"></div>
+  <div class="hero-eyebrow">Solar EV Charging · Ghana</div>
+  <h1>Powering every<br>journey with <span class="accent">sunlight.</span></h1>
+  <p class="lede">EcoCharge Ghana builds and operates solar-powered EV charging stations across the country — pairing every charge with clean water access, so the energy transition serves communities, not just cars.</p>
+  <div class="cta-row">
+    <a href="contact.html" class="btn btn-primary">Get in touch</a>
+    <a href="faq.html" class="btn btn-ghost">Read the FAQ</a>
+  </div>
+</section>
+
+<section class="pillars">
+  <h2 style="font-size:22px;">What we do</h2>
+  <div class="pillars-grid">
+    <div class="pillar">
+      <div class="icon">☀️</div>
+      <h3>Solar Charging</h3>
+      <p>Stations powered by solar and hydrogen energy, built for Ghana's grid realities.</p>
+    </div>
+    <div class="pillar">
+      <div class="icon">💧</div>
+      <h3>Clean Water</h3>
+      <p>Every charging session includes a 20L clean water bundle for the driver's household.</p>
+    </div>
+    <div class="pillar">
+      <div class="icon">📱</div>
+      <h3>Smart App</h3>
+      <p>A wallet-based EcoCharge app for booking, reserving, and paying for charging sessions.</p>
+    </div>
+    <div class="pillar">
+      <div class="icon">🇬🇭</div>
+      <h3>Local Employment</h3>
+      <p>We train and employ Ghanaians at every station we build, from Accra to Tamale.</p>
+    </div>
+  </div>
+</section>
+
+<main class="page">
+  <section class="block">
+    <h2>Our mission</h2>
+    <p>Ghana's electric vehicle transition shouldn't come at the cost of energy access or clean water for the communities it passes through. EcoCharge Ghana was built on a simple idea: every charging station is also an opportunity to deliver something else people need. That's why every session includes a water bundle, and why every station we open creates local jobs and skills training rather than importing labor.</p>
+  </section>
+
+  <section class="block">
+    <h2>How it works</h2>
+    <p>Drivers download the EcoCharge app, register their vehicle, and top up a digital wallet. From there, they can find nearby stations, reserve a charging bay ahead of time, or simply scan a QR code and start charging on arrival. Payment is deducted automatically from the wallet based on actual energy used — no cash handling, no surprises.</p>
+  </section>
+
+  <section class="block">
+    <h2>Where we operate</h2>
+    <p>EcoCharge stations are live across multiple regions in Ghana, including Accra, Kumasi, Tema, Takoradi, Tamale, Sunyani, Cape Coast, and Ho — with new stations added as the network grows.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <section class="block">
+    <h2>Company</h2>
+    <p><strong>EcoCharge Ghana Ltd</strong> is a registered company operating in the Republic of Ghana, focused on solar EV charging infrastructure and clean water access. For business, partnership, or press enquiries, see our <a href="contact.html">Contact page</a>.</p>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="footer-wrap">
+    <div class="brand"><span class="dot"></span><span class="eco">Eco</span><span class="charge">Charge</span></div>
+    <div class="footer-links">
+      <a href="index.html">About</a>
+      <a href="faq.html">FAQ</a>
+      <a href="terms.html">Terms of Service</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  <p class="footer-note">© 2026 EcoCharge Ghana Ltd. All rights reserved.</p>
+</footer>
+
+<script>
+  const rays = document.getElementById('sunburst');
+  for (let i = 0; i < 16; i++) {
+    const ray = document.createElement('div');
+    ray.className = 'ray';
+    ray.style.transform = `translate(-50%,0) rotate(${i * (360/16)}deg)`;
+    rays.appendChild(ray);
+  }
+</script>
+
+</body>
+</html>

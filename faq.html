@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ — EcoCharge Ghana Ltd.</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand"><div class="mark">⚡</div><div class="name">EcoCharge<span class="sub">GHANA</span></div></a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('nav.links').classList.toggle('open')"><span></span><span></span><span></span></button>
+    <nav class="links">
+      <a href="index.html">Home</a><a href="index.html#about">About</a><a href="index.html#mission">Mission</a>
+      <a href="faq.html" class="active">FAQ</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a>
+      <a href="refund.html">Refunds</a><a href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn btn-primary" style="margin-left:16px;">Get in Touch</a>
+  </div>
+</header>
+
+<main class="page">
+  <h1 class="page-title">Frequently Asked Questions</h1>
+  <p class="subtitle">Real answers about charging, reservations, payments, Home+, and route planning.</p>
+
+  <div class="faq-category">Charging</div>
+  <details class="faq-item" open>
+    <summary>Where can I charge?</summary>
+    <div class="faq-a">EcoCharge stations are live across multiple cities in Ghana, including Accra, Kumasi, Tema, Takoradi, Tamale, Sunyani, Cape Coast, and Ho. The app shows all stations and their live availability.</div>
+  </details>
+  <details class="faq-item">
+    <summary>How do I find a station?</summary>
+    <div class="faq-a">Open the app and use "Find Stations" or the map view to see nearby chargers, along with bay availability and estimated wait.</div>
+  </details>
+  <details class="faq-item">
+    <summary>How do I start charging?</summary>
+    <div class="faq-a">Scan the QR code on the charger, or select "Charge Now" from the station screen if you're already there. Charging starts once your wallet has sufficient balance.</div>
+  </details>
+  <details class="faq-item">
+    <summary>How do I know whether a charger is available?</summary>
+    <div class="faq-a">The app shows a live bay count (e.g. "4/6 available") for each station, based on current charger status.</div>
+  </details>
+
+  <div class="faq-category">Reservations</div>
+  <details class="faq-item">
+    <summary>How do reservations work?</summary>
+    <div class="faq-a">You can reserve a specific charger for a future time slot from the app. No payment is taken until your charging session actually begins.</div>
+  </details>
+  <details class="faq-item">
+    <summary>What happens if I arrive late?</summary>
+    <div class="faq-a">Reservations are held for a grace period after your selected time. See our <a href="refund.html">Refund &amp; Cancellation Policy</a> for details.</div>
+  </details>
+  <details class="faq-item">
+    <summary>What happens if I don't show up?</summary>
+    <div class="faq-a">Your reservation may be released after the grace period so other users can charge. Since no payment is taken until a session starts, a no-show does not itself incur a charge under current policy.</div>
+  </details>
+  <details class="faq-item">
+    <summary>Can I cancel a reservation?</summary>
+    <div class="faq-a">Yes, from the "My Bookings" section of the app before your session starts.</div>
+  </details>
+
+  <div class="faq-category">Payments</div>
+  <details class="faq-item">
+    <summary>How do I pay?</summary>
+    <div class="faq-a">Top up your EcoCharge Wallet using card or mobile money via Paystack. Charging sessions are billed automatically from your wallet based on actual energy used.</div>
+  </details>
+  <details class="faq-item">
+    <summary>What is the EcoCharge Wallet?</summary>
+    <div class="faq-a">A prepaid in-app balance used to pay for charging and subscriptions. It has no cash value outside the app and can't be transferred to other users.</div>
+  </details>
+  <details class="faq-item">
+    <summary>How does Paystack work?</summary>
+    <div class="faq-a">Paystack is our payment processor. When you top up your wallet or pay for a subscription, Paystack securely handles the card/mobile money transaction. EcoCharge does not receive or store your full card details.</div>
+  </details>
+  <details class="faq-item">
+    <summary>What happens if I am charged incorrectly?</summary>
+    <div class="faq-a">Contact support with your transaction reference. See our <a href="refund.html">Refund &amp; Cancellation Policy</a> for how duplicate or incorrect charges are handled.</div>
+  </details>
+
+  <div class="faq-category">EcoCharge Home+</div>
+  <details class="faq-item">
+    <summary>What is EcoCharge Home+?</summary>
+    <div class="faq-a">A paid subscription tier for drivers with a home charger — it adds smart scheduling, battery protection settings, energy tracking, and remote charger control from the app.</div>
+  </details>
+  <details class="faq-item">
+    <summary>What chargers are compatible?</summary>
+    <div class="faq-a">Home+ currently supports chargers compatible with our OCPP-based charger network. Compatibility is confirmed during the charger linking process in the app.</div>
+  </details>
+  <details class="faq-item">
+    <summary>How do I connect my home charger?</summary>
+    <div class="faq-a">Use Quick Connect in the Home+ section of the app to scan your charger's QR code and securely link it to your account.</div>
+  </details>
+  <details class="faq-item">
+    <summary>Can I schedule charging?</summary>
+    <div class="faq-a">Yes — Home+ subscribers can set recurring charging schedules, including off-peak-only options.</div>
+  </details>
+  <details class="faq-item">
+    <summary>Can family members use my charger?</summary>
+    <div class="faq-a">You can invite family members into a shared Family group from the app. Shared wallet access and shared vehicle/charger use are not available yet — this is a planned feature.</div>
+  </details>
+
+  <div class="faq-category">Route Planning</div>
+  <details class="faq-item">
+    <summary>Can EcoCharge plan short trips?</summary>
+    <div class="faq-a">Yes. The AI Route Planner works for any distance — for local driving it acts as a driver assistant showing nearby stations and battery status; you don't need a long trip to use it.</div>
+  </details>
+  <details class="faq-item">
+    <summary>Can it plan long-distance trips?</summary>
+    <div class="faq-a">Yes. For longer journeys, it maps your route, estimates energy use, and recommends charging stops along the way based on your vehicle's range and current battery level.</div>
+  </details>
+  <details class="faq-item">
+    <summary>How does it estimate battery range?</summary>
+    <div class="faq-a">Using your vehicle's registered battery capacity and your manually entered current battery percentage. Live battery telemetry from the vehicle itself is not currently supported.</div>
+  </details>
+
+  <div class="divider"></div>
+  <p style="text-align:center; color: var(--muted); font-size: 13.5px;">Still have a question? <a href="contact.html">Contact our support team</a>.</p>
+</main>
+
+<footer class="site">
+  <div class="footer-bottom" style="max-width: var(--wide); margin: 0 auto;">© 2026 EcoCharge Ghana Ltd. All rights reserved. · <a href="terms.html" style="color:inherit;">Terms</a> · <a href="privacy.html" style="color:inherit;">Privacy</a> · <a href="refund.html" style="color:inherit;">Refunds</a></div>
+</footer>
+
+</body>
+</html>
